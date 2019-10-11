@@ -6,6 +6,6 @@ matrix:
 
   - rust: stable
     script:
-    - cargo test --all --locked
+    - cargo test --all
     - rustup component add rustfmt-preview
     - cargo fmt --all -- --check
